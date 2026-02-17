@@ -1,0 +1,6 @@
+projects = ["yonasBSD"]
+features = ["config-rs"]
+extra_folders = ["benches", "contrib", "docs", "examples", "scripts", "vendor"]
+
+[custom_modules.api.core]
+backends = ["graphql", "grpc", "rest"]
